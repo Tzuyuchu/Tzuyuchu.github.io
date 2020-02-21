@@ -1,4 +1,4 @@
-document.getElementById("title").innerHTML = "Updated :D";
-document.getElementById("button").onclick = function() {
-    document.getElementById("title").innerHTML = "More updoot :P";
+$.innerHTML("title") = "Keepin it Fresh";
+$.onclick("button") = function() {
+    $.innerHTML("title") = "Keepin it Fresher";
 }
