@@ -1,5 +1,53 @@
+.color-primary-0 { background-color: #23947A }	/* Main Primary color */
+.color-primary-1 { background-color: #66BFAB }
+.color-primary-2 { background-color: #3CA28B }
+.color-primary-3 { background-color: #0E7E65 }
+.color-primary-4 { background-color: #03644E }
+h1 {
+    font-family: Arial;
+}
+#title {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 1000;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 25px;
+}
+#header-bar {
+    /* background-color: green; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    padding-left: 20px;
+}
+div {
+    position: relative;
+}
 #button {
     width: 50px;
     height: 25px;
     background-color: tomato;
+    top: 200px;
+    left: 0;
+}
+#snake-box {
+    position: fixed;
+    height: 500px;
+    width: 500px;
+    top: 100px;
+    left: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+.snake {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
 }
