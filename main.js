@@ -85,15 +85,12 @@ function snakeMove(snek) {
 
 function update() {
     snakeBox.innerHTML = "";
-    snake[0].xPos = snakeMove(0)[0];
-    snake[0].yPos = snakeMove(0)[1];
-    updateSnake(i);
     for (let i = 1; i < snake.length; i++) {
+        updateSnake(i);
         snake[i].xPos = snakeMove(i)[0];
         snake[i].yPos = snakeMove(i)[1];
-        updateSnake(i);
     }
-    return 0;
+    // return 0;
     setTimeout(update, speed);
 }
 update();
