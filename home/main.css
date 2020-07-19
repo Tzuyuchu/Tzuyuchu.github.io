@@ -1,0 +1,23 @@
+.d-inline-block {
+    display: inline-block!important;
+}
+.align-top {
+    vertical-align: top!important;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: $navbar-brand-padding-y;
+  margin-right: $navbar-padding-x;
+  font-size: $navbar-brand-font-size;
+  line-height: inherit;
+  white-space: nowrap;
+
+  @include hover-focus {
+    text-decoration: none;
+  }
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
